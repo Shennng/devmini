@@ -23,12 +23,9 @@ export default function Home() {
     <div className="min-h-screen">
       <section className="border-b border-border">
         <div className="mx-auto max-w-5xl px-6 py-20 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Dev<span className="text-primary">Mini</span></h1>
             <p className="mt-4 text-lg text-muted-foreground">极简、极速、纯前端的开发者工具箱</p>
-          </motion.div>
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="mt-8 flex justify-center">
-            <div className="w-full max-w-md"><CommandMenu /></div>
           </motion.div>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.2 }} className="mt-6 flex justify-center gap-6 text-sm text-muted-foreground">
             <span className="flex items-center gap-1"><Shield className="h-4 w-4" />纯前端 · 零上传</span>
