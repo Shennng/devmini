@@ -27,7 +27,7 @@ git push origin main
 ## 部署
 
 - 本地开发: http://localhost:3000
-- 生产环境: http://142.171.209.151:997 (nginx 代理)
+- 生产环境: http://ip:port(nginx 代理)
 
 ## 技术栈
 
