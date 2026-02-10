@@ -1,0 +1,9 @@
+{
+  "name": "DevMini",
+  "short_name": "DevMini",
+  "description": "极简、极速、纯前端的开发者工具箱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#3b82f6"
+}
